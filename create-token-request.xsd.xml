@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CreateTokenRequest xmlns="https://www.example.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.example.com create-token-request.xsd"
+>
+    <CreditCard>
+        <Account>0987654321</Account>
+        <CardHolderName>Tehya Shaye</CardHolderName>
+        <ExpirationDate>2028-05</ExpirationDate>
+    </CreditCard>
+</CreateTokenRequest>
